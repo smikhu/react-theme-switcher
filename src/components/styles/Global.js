@@ -1,3 +1,5 @@
+import { createGlobalStyle } from 'styled-components';
+
 export const GlobalStyles = createGlobalStyle`
 *,
 *::before,
@@ -13,4 +15,4 @@ body {
     font-family: monospace;
     overflow-x: hidden;
 }
-`
+`;
